@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import psycopg2
-from config import config
+from db.config import config
 
 conn = None
 params = config()
